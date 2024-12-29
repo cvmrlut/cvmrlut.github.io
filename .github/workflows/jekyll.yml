@@ -7,3 +7,8 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    steps:
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - uses: actions/deploy-pages@v4
