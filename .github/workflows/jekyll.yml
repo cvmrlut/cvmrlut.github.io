@@ -1,5 +1,8 @@
+name: Deploy GitHub Pages
+
 on:
-  page_build:
+  push:
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -9,6 +12,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
