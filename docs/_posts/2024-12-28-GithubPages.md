@@ -1,5 +1,6 @@
 # Build github pages using the remote theme & Markdown
-[github-pages](https://github.com/skills/github-pages) |
+[github-docs](https://docs.github.com/en/pages) |
+[github-skills](https://github.com/skills/github-pages) |
 [Jekyll Themes](http://jekyllthemes.org)
 
 ## E.G. [sighingnow/jekyll-gitbook](https://github.com/sighingnow/jekyll-gitbook)
@@ -82,8 +83,6 @@ Create `_posts` folder and add Markdown file.
 
 # More themes
 ## [cotes2020/jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
-[Tech](https://zhang-nianqiang.github.io/posts/Deploy-Jekyll-on-GitHub-Pages-using-Chirpy-Theme/)
-
 
 ## [just-the-docs](https://github.com/just-the-docs/just-the-docs)
 
@@ -92,7 +91,6 @@ https://github.com/fastai/fast_template/generate |
 https://www.fast.ai/2020/01/16/fast_template
 
 ## [Academic Pages](https://github.com/academicpages/academicpages.github.io)
-
 
 <div align='center'><details><summary>
 
